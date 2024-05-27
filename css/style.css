@@ -1,0 +1,56 @@
+body {
+    background-color: #e7e7e7;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #DBB5B5;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+h1:hover::before {
+    height: 70%;
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #DBB5B5, #C39898);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-control:focus {
+
+    box-shadow: 0 0 0 .25rem #dbb5b5cf;
+    border-color: #dbb5b5cf;
+}
+
+#submitBtn {
+    background-color: #987070;
+    color: aliceblue;
+    transition: all;
+}
+
+#submitBtn:hover {
+    background-color:
+        #b78f8f;
+    color: aliceblue;
+}
+
+.rounded-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
