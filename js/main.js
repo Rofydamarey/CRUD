@@ -43,8 +43,7 @@ function modal() {
 function displaybook() {
     let cartona = ''
     for (let i = 0; i < bookscontainer.length; i++) {
-        cartona += `
-        
+        cartona += `   
         <tr>
         <td>${bookscontainer[i].name}</td>
         <td>${bookscontainer[i].url}</td>
